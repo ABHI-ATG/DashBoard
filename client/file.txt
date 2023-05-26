@@ -1,0 +1,8 @@
+mogodb atlas connection
+dotenv
+
+// postman
+// request -> post -> header
+header content-type , application/json
+body->raw => data
+send
