@@ -5,7 +5,7 @@ const Logout=()=>{
     const navigate=useNavigate();
     const callLogOut=async()=>{
         try{
-            const res=await fetch('/logout',{
+            const res=await fetch('https://dashboard-backend-9q3h.onrender.com/logout',{
                 method:"GET",
                 headers:{
                     Accept:"application/json",

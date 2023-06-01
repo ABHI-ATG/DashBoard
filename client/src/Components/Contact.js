@@ -10,7 +10,7 @@ const Contact=()=>{
   
     const callContact=async ()=>{
         try{
-            const res=await fetch('/contact',{
+            const res=await fetch('https://dashboard-backend-9q3h.onrender.com/contact',{
                 method:"GET",
                 headers:{
                     Accept:"application/json",

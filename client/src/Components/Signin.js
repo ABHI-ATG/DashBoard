@@ -9,7 +9,7 @@ const Signin=()=>{
 
     const loginUser=async (e)=>{
       e.preventDefault();
-      const res=await fetch("/login",{
+      const res=await fetch("https://dashboard-backend-9q3h.onrender.com/login",{
           method:"POST",
           headers:{
             "Content-Type":"application/json"
