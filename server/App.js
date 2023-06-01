@@ -2,7 +2,8 @@ const express = require("express");
 const app=express();
 const cookeParser=require("cookie-parser");
 app.use(cookeParser());
-
+cors=require("cors");
+app.use(cors());
 const dotenv=require("dotenv");
 dotenv.config({path:'./config.env'});
 const port=process.env.PORT;
