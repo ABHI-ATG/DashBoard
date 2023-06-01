@@ -15,7 +15,7 @@ const Logout=()=>{
             })
             if(res.status===200){
                 localStorage.clear();
-                navigate('/signin');
+                navigate('https://dashboard-frontend-txky.onrender.com/signin');
             }else{  
                 console.log("Error");
                 throw new Error("Logout Failed")

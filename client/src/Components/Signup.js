@@ -41,7 +41,7 @@ const Signup=()=>{
         console.log("Failed");
       }else{
         console.log("User Registered Successfully");
-        navigate('/signin');
+        navigate('https://dashboard-frontend-txky.onrender.com/signin');
       }
     }
 

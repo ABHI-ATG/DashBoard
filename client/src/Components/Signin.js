@@ -23,7 +23,7 @@ const Signin=()=>{
         console.log("Invalid Credentials");
       }else{
         localStorage.setItem("auth","yes");
-        navigate('/');
+        navigate('https://dashboard-frontend-txky.onrender.com');
         console.log("Success");
       }
     }
