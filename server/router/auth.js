@@ -61,8 +61,9 @@ router.post('/login',async (req,res)=>{
     }
 });
 
-router.get('/about',authenticate,(req,res)=>{
-    return res.send(req.rootUser);
+router.get('/about',(req,res)=>{
+    console.log("about us page working");
+    return res.send("hello this is aobut us page");
 })
 
 router.get('/logout',authenticate,(req,res)=>{
