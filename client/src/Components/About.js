@@ -24,7 +24,7 @@ const About=()=>{
                 throw error;
             }
         }catch(err){
-            navigate('https://dashboard-frontend-txky.onrender.com/signin');
+            navigate('/signin');
         }
     }
 
